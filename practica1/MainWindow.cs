@@ -16,17 +16,16 @@ public partial class MainWindow : Gtk.Window
 
     protected void OnButton1Clicked(object sender, EventArgs e)
     {
-
+        string dato = null;
         string texto = entry4.Text;
         logica ir = new logica();
         String[] lineas= ir.Dato(texto);
         for (int i=0; i <lineas.Length; i++)
         {
             Console.WriteLine(lineas[i]);
-
-            textview4.Text=lineas[i];
+            dato = dato + lineas[i] + "\n";
         }
-        
+        textview4.Buffer.SetText(dato);
     }
 
 }

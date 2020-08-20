@@ -2,11 +2,12 @@
 <stetic-interface>
   <configuration>
     <images-root-path>..</images-root-path>
+    <target-gtk-version>2.12</target-gtk-version>
   </configuration>
   <import>
     <widget-library name="../bin/Release/practica1.exe" internal="true" />
   </import>
-  <widget class="Gtk.Window" id="MainWindow" design-size="687 550">
+  <widget class="Gtk.Window" id="MainWindow" design-size="687 564">
     <property name="MemberName" />
     <property name="Title" translatable="yes">MainWindow</property>
     <property name="WindowPosition">CenterOnParent</property>
@@ -56,6 +57,9 @@
           <placeholder />
         </child>
         <child>
+          <placeholder />
+        </child>
+        <child>
           <widget class="Gtk.ScrolledWindow" id="GtkScrolledWindow">
             <property name="MemberName" />
             <property name="ShadowType">In</property>
@@ -66,6 +70,7 @@
                 <property name="HeightRequest">200</property>
                 <property name="CanFocus">True</property>
                 <property name="ShowScrollbars">True</property>
+                <property name="Overwrite">True</property>
                 <property name="Text" translatable="yes" />
               </widget>
             </child>

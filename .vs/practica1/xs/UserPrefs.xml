@@ -1,23 +1,10 @@
 ﻿<Properties StartupConfiguration="{16B0D245-8D63-47BF-818B-E65056C14B7F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="practica1/MainWindow.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="practica1/Properties/AssemblyInfo.cs">
     <Files>
-      <File FileName="practica1/MainWindow.cs" Line="32" Column="2" />
-      <File FileName="practica1/logica.cs" Line="30" Column="15" />
+      <File FileName="practica1/logica.cs" Line="15" Column="6" />
       <File FileName="practica1/Properties/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="practica1/MainWindow.cs" Line="18" Column="6" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="practica1" expanded="True">
-            <Node name="practica1" expanded="True">
-              <Node name="UserInterface" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="MainWindow.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.practica1 PreferredExecutionTarget="MonoDevelop.Default" />

@@ -65,6 +65,7 @@ public partial class MainWindow
 		this.textview4.HeightRequest = 200;
 		this.textview4.CanFocus = true;
 		this.textview4.Name = "textview4";
+		this.textview4.Overwrite = true;
 		this.GtkScrolledWindow.Add(this.textview4);
 		this.fixed1.Add(this.GtkScrolledWindow);
 		global::Gtk.Fixed.FixedChild w5 = ((global::Gtk.Fixed.FixedChild)(this.fixed1[this.GtkScrolledWindow]));
@@ -76,7 +77,7 @@ public partial class MainWindow
 			this.Child.ShowAll();
 		}
 		this.DefaultWidth = 687;
-		this.DefaultHeight = 550;
+		this.DefaultHeight = 564;
 		this.Show();
 		this.DeleteEvent += new global::Gtk.DeleteEventHandler(this.OnDeleteEvent);
 		this.button1.Clicked += new global::System.EventHandler(this.OnButton1Clicked);
