@@ -1,0 +1,6 @@
+/home/bladimir/Projects/practica1/practica1/bin/Debug/practica1.exe
+/home/bladimir/Projects/practica1/practica1/bin/Debug/practica1.pdb
+/home/bladimir/Projects/practica1/practica1/obj/x86/Debug/practica1.csprojAssemblyReference.cache
+/home/bladimir/Projects/practica1/practica1/obj/x86/Debug/practica1.csproj.CoreCompileInputs.cache
+/home/bladimir/Projects/practica1/practica1/obj/x86/Debug/practica1.exe
+/home/bladimir/Projects/practica1/practica1/obj/x86/Debug/practica1.pdb
